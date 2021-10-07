@@ -1,0 +1,65 @@
+@media (max-width:1600px) {
+    .header__jpg11 {
+        width:40%;
+    }
+} 
+
+@media (max-width:1200px) {
+    .frameone {
+        width:90%;
+    }
+    .frametwo {
+        width: 90%;
+    }
+    .framethree {
+        width:90%;
+    }
+    .frameone__medal_yellow {
+        width: calc(85px + (115 - 85) * ((100vw - 320px) / (1920 - 320)));
+        height: calc(85px + (115 - 85) * ((100vw - 320px) / (1920 - 320)));
+    }
+}
+
+@media (max-width:768px) {
+    .header {
+        flex-direction: column;
+    }
+    .header__very {
+        margin-top:30%;
+    }
+    .header__have {
+    }
+    .header__button {
+        display: none;
+    } 
+    .header__jpg11 {
+    }
+    .bloc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .frameone {
+        margin:2% 5% 0% 5%;
+        width:350px;
+    }
+    .frameone__medal_yellow {
+        margin-top: 5%;
+    }
+    .frametwo {
+        margin:3% 5% 0 5%;
+        width:350px;
+    }
+    .frametwo__briefcase_jpg3 {
+        margin-top: 5%;
+    }
+    .framethree {
+        margin:3% 5% 0% 5%;
+        width:350px;
+    }
+    .framethree__money_green {
+        margin-top: 5%;
+    }
+    .beginning {
+    }
+}

@@ -1,0 +1,172 @@
+.body {
+    width:100%;
+    margin: auto; 
+}
+.wrapper {
+    width: 100%;
+}
+.header {
+    background-color: blue;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.header__container {
+}
+.header__logo {
+    position: absolute;
+    width: calc(93px + (180 - 93) * ((100vw - 320px) / (1920 - 320)));
+    height: calc(24px + (47 - 24) * ((100vw - 320px) / (1920 - 320)));
+    top: 5%;
+}
+.header__very {
+    font-size: calc(25px + (45 - 25) * ((100vw - 320px) / (1920 - 320)));
+    color: #FFFFFF;
+}
+.header__have {
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+    color: #FFCC33;
+}
+.header__know {
+    font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+    color: #FFFFFF;
+}
+.header__button {
+    background-color: #FFCC33;
+    color: #3030C1;
+    padding: 3% 4%;
+    font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+    border: none;
+    margin:0 0 3% 0;
+}
+.header__jpg11 {
+    float: right;
+    margin:10% 0 9% 0;
+}
+.til {
+    text-align: center;
+    margin:20px 0;
+}
+.til__titl {
+    font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.bloc {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.bloc__titl {
+}
+.frameone {
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    width:380px; /*21%*/
+    height: calc(273px + (401 - 273) * ((100vw - 320px) / (1920 - 320)));
+    background:#f1f1f1; 
+    margin: 0 1% 1% 0px; 
+    text-align:center;
+}
+.frameone__medal {
+}
+.frameone__medal_yellow {
+    margin-top:13%;
+}
+.frameone__medal_courses {
+    color: #3030C1;
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.frameone__medal_professional {
+   font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+}
+.frametwo {
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    width:380px; /*21%*/
+    height: calc(273px + (401 - 273) * ((100vw - 320px) / (1920 - 320)));
+    background:#f1f1f1; 
+    margin: 0 1% 0% 0px;
+    text-align:center;
+}
+.frametwo__briefcase {
+}
+.frametwo__briefcase_jpg3 {
+    margin-top:13%;
+}
+.frametwo__briefcase_work {
+    color: #3030C1;
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.frametwo__briefcase_tocome {
+    font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+}
+.framethree {
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    width:380px; /*21%*/
+    height: calc(273px + (401 - 273) * ((100vw - 320px) / (1920 - 320)));
+    background:#f1f1f1; 
+    margin: 0 1% 1% 0px;  
+    text-align:center;
+}
+.framethree__money {
+}
+.framethree__money_green {
+    margin-top:13%;
+}
+.framethree__money_Earn {
+    color: #3030C1;
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.framethree__money_rubles {
+    font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.beginning {
+    text-align: center;
+}
+.beginning__mini {
+}
+.beginning__mini_start {
+    font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.beginning__mini_landing {
+    font-size: calc(18px + (30 - 18) * ((100vw - 320px) / (1920 - 320)));
+}
+.registration {
+    background-color: #F0FBFF;
+    text-align: center;
+    margin:4% 0 0 0;
+}
+.registration__data_change {
+    padding-top:4%;
+    font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.registration__data_name {
+    margin: 1% 0 0 0;
+    padding:28px 204px 28px 28px;
+    font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+    border: none;
+}
+.registration__data_email {
+    margin: 1.5% 0 0 0;
+    padding:28px 204px 28px 28px;
+    font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+    border: none;
+}
+.registration__data_application {
+    margin: 4% 0 4% 0;
+    background-color: #FFDA45;
+    padding:28px 109px;
+    font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (1920 - 320)));
+    border: none;
+}
+
+.botton {
+    background-color:#00008B;
+    padding-top:4%;
+    padding-bottom:4%;  /*51px*/
+    padding-left:18%; /*350px*/
+    color: rgb(255, 255, 255);
+}
+.botton__theend_webhero {
+    font-size: calc(10px + (15 - 10) * ((100vw - 320px) / (1920 - 320)));
+}
